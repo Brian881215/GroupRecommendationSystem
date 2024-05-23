@@ -305,7 +305,7 @@ const GroupPage = () => {
     setOpenSnackbar(false);
   };
 
-  const handleConfirm = (async () => {
+  const handleConfirm = async () => {
     if (groupMembers.length < 2) {
       setError('團體推薦至少要兩個人');
       setOpenSnackbar(true);
@@ -345,7 +345,7 @@ const GroupPage = () => {
     }catch (error) {
       console.error('Error updating recommendation flag', error);
     }
-  },[apiUrl]);
+  };
 
   const handleRatingChange1 = (e) => {
       setRecommendationScore1(e);

@@ -135,3 +135,10 @@
   /* .user-name-link:hover {
     text-decoration: underline;
   } */
+
+  /* @media (min-width: 768px) {
+    .group-card, .group-card-browse {
+      max-width: 45%;
+    }
+  }
+   */
